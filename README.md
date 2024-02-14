@@ -145,7 +145,7 @@ contact = client.channel_list_by_id(uuid='YOUR_CHANNEL_ID')
 
 10. **Get Connector List**
 ```python
-contact = client.channel_list()
+contact = client.connector_list()
 # Gets a list of connectors created in an workspace.
 # A connector can be Whatsapp, Messenger, SMS
 ```
