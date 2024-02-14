@@ -2,7 +2,7 @@
 name = "bird-python"
 version = "0.1.1"
 description = "API wrapper for MessageBird written in Python"
-authors = ["Miguel Alejandro Cepeda <alejomjc2011@gmail.com>"]
+authors = ["Gearplug Team <apps@gearplug.io>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "bird-python"}]
