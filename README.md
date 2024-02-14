@@ -14,7 +14,7 @@ Installation
 The easiest way to install the messagebird-python-new package is either via pip:
 
 ```
-$ pip install messagebird
+$ pip install bird-python
 ```
 
 Examples
@@ -22,7 +22,7 @@ Examples
 We have put some self-explanatory examples in the [examples](https://github.com/messagebird/python-rest-api/tree/master/examples) directory, but here is a quick example on how to get started. Assuming the installation was successful, you can import the messagebird package like this:
 
 ```python
-import messagebird
+import bird-python as messagebird
 ```
 
 Then, create an instance of **messagebird.Client**:
