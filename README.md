@@ -1,4 +1,4 @@
-MessageBird's REST API for Python
+Bird's REST API for Python
 =================================
 This repository contains the open source Python client for New MessageBird's REST API. Documentation can be found at: https://docs.bird.com/api/.
 
