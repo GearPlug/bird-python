@@ -5,7 +5,7 @@ description = "API wrapper for MessageBird written in Python"
 authors = ["Miguel Alejandro Cepeda <alejomjc2011@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "kommo"}]
+packages = [{include = "bird-python"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
