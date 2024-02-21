@@ -1,7 +1,7 @@
 import json
-from messagebird.error import Error
-from messagebird.exceptions import ErrorException
-from messagebird.http_client import HttpClient
+from bird_python.error import Error
+from bird_python.exceptions import ErrorException
+from bird_python.http_client import HttpClient
 
 ENDPOINT = "https://api.bird.com/"
 

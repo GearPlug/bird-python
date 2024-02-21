@@ -1,7 +1,7 @@
 import requests
 from enum import Enum
 
-from messagebird.serde import json_serialize
+from bird_python.serde import json_serialize
 
 from urllib.parse import urljoin
 
