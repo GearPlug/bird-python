@@ -73,6 +73,15 @@ class Client(object):
         """Gets one channel created in an workspace by id."""
         return load(self.request(f'workspaces/{self.workspaces}/channels/{uuid}', "GET", None))
 
+    def channel_template_list(self, project_id):
+        """Gets a list of channels template created in an workspace."""
+        return load(self.request(f'workspaces/{self.workspaces}/projects/{project_id}/channel-templates', "GET", None))
+
+    def channel_template_list_by_id(self, project_id, uuid):
+        """Gets one channel template created in an workspace by id."""
+        return load(self.request(f'workspaces/{self.workspaces}/projects/{project_id}/channel-templates/{uuid}',
+                                 "GET", None))
+
     def connector_list(self):
         """
         Gets a list of connectors created in an workspace.
